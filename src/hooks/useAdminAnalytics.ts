@@ -199,6 +199,7 @@ export const useAdminAnalytics = () => {
             revenue: 0
           };
         }
+
         
         acc[date].total_orders += 1;
         
