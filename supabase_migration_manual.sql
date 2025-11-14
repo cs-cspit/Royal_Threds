@@ -1,3 +1,4 @@
+
 -- Manual Supabase Migration for Cancellation System
 -- Run this in your Supabase SQL Editor
 
