@@ -17,6 +17,7 @@ import ImageUpload from './ImageUpload';
 import ProductTagAssignment from './ProductTagAssignment';
 import AdminProductTagManagement from './AdminProductTagManagement';
 
+
 type Product = Tables<'products'>;
 type Category = Tables<'product_categories'>;
 type ProductStatus = 'active' | 'inactive' | 'out_of_stock';
