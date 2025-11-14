@@ -43,7 +43,7 @@ const About = () => {
 
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <img
-              src="public/images/products/Legacy Brand.jpg"
+              src="/images/products/Legacy Brand.jpg"
               alt="Founder's workshop"
               className="w-full rounded-2xl shadow-royal"
             />
