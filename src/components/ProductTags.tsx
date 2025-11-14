@@ -7,7 +7,7 @@ interface ProductTag {
   name: string;
   color: string;
   text_color: string;
-  sort_order: number;
+  sort_order:  number;
 }
 
 interface ProductTagsProps {
