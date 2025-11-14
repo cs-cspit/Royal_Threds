@@ -14,7 +14,7 @@ const AdminPanel = () => {
   const { logout, adminUser } = useAdminAuth();
   const { summary, isLoading } = useAdminAnalytics();
 
-  // ✅ Calculate growth rate from totalRevenue vs previousRevenue
+  // ✅ Calculate growth rate from totalRevenue vs previousRevenue....
   const calculateGrowthRate = (current: number, previous: number) => {
     if (!previous || previous === 0) return current > 0 ? 100 : 0; // Avoid divide by 0
     return ((current - previous) / previous) * 100;
