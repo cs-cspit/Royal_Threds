@@ -38,6 +38,7 @@ const CheckoutPage = () => {
       </div>
     );
   }
+  
 
   if (cartItems.length === 0) {
     return (
