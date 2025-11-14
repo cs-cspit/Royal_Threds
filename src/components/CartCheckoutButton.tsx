@@ -28,6 +28,7 @@ const CartCheckoutButton = () => {
   if (cartItems.length === 0) {
     return null;
   }
+  
 
   return (
     <div className="border-t pt-4 mt-4">
